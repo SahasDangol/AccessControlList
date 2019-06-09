@@ -7,7 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## About Acess Control List
+
+ACL stands for Access Control List. ACL roles and permissions are very important if you are making big application in laravel 5.6. this tutorial will explain how to implement User Roles and Permissions(ACL) using spatie/laravel-permission composer package. So basically i will do it from scratch how to create permissions, roles, and users with assign roles etc.
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
