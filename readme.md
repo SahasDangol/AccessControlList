@@ -9,3 +9,9 @@ ACL stands for Access Control List. ACL roles and permissions are very important
 # Step 1: Clone Repo
    
 https://github.com/EkloSahas/AccessControlList.git
+
+# Step 2 : Install dependencies in the project Folder
+ composer install
+
+# Step 3 : Generate .env file
+cp .env.example .env
