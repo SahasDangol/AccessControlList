@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
         User::insert([
             ['name'=>'Admin',
                 'email'=>'admin@gmail.com',
-                'password'=>Hash::make('turing')],
+                'password'=>Hash::make('admin')],
         ]);
     }
 }
