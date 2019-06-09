@@ -21,9 +21,9 @@ php artisan key:generate
 
 # Step 5 : Database Setup in env file
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=user
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=your_database_name<br>
+DB_USERNAME=user<br>
 DB_PASSWORD=password
