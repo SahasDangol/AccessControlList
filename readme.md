@@ -42,5 +42,5 @@ DB_PASSWORD=password
         username : admin@gmail.com
         password : admin
 
-    <b>#Run</b>
+    #Run
         php artisan serve
