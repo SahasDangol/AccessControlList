@@ -35,3 +35,12 @@ DB_PASSWORD=password
 
     #Seed
         php artisan db:seed
+
+
+# Step 7 : Run
+    We have made one User as Admin through Seed which is,
+        username : admin@gmail.com
+        password : admin
+
+    <b>#Run</b>
+        php artisan serve
