@@ -27,3 +27,11 @@ DB_PORT=3306<br>
 DB_DATABASE=your_database_name<br>
 DB_USERNAME=user<br>
 DB_PASSWORD=password
+
+# Step 6 : Migrate and Seed
+
+    #Migrate Tables
+        php artisan migrate
+
+    #Seed
+        php artisan db:seed
