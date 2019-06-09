@@ -15,3 +15,15 @@ https://github.com/EkloSahas/AccessControlList.git
 
 # Step 3 : Generate .env file
 cp .env.example .env
+
+# Step 4 : Generate APP_KEY
+php artisan key:generate
+
+# Step 5 : Database Setup in env file
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=user
+DB_PASSWORD=password
